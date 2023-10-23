@@ -1,0 +1,18 @@
+* {
+	/* border: 1px solid red; */
+}
+.footer-sub {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+.footer-button {
+	/* background-color: red; */
+	padding: 2px 6px;
+	border: 1px solid black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.footer-button:hover {
+	background-color: violet;
+}

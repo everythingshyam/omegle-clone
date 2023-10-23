@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+
+* {
+	/* border: 1px solid red; */
+}
+#header {
+	/* background-color: gray; */
+	display: flex;
+	width: 100%;
+	/* height: 100%; */
+	justify-content: space-between;
+	padding: 5px;
+}
+#header > * {
+	/* background-color: blue; */
+	height: 80%;
+	padding: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.brand-container {
+	height: 100%;
+	/* padding: 5px; */
+}
+
+.brand-container > * {
+	/* padding: 5px; */
+}
+
+.brand-logo > img {
+	/* -webkit-filter: drop-shadow(1px 1px 6px red); */
+	/* filter: drop-shadow(1px 1px 6px red); */
+	height: 6vh;
+	padding: 0;
+	padding-right: 5px;
+}
+
+.brand-name {
+	text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.5);
+	font-family: 'Lobster', sans-serif;
+	/* font-family: 'Varela Round', sans-serif; */
+	font-size: 2.2rem;
+}
+
+.nav-icon {
+	aspect-ratio: 1/1;
+	/* background-color: yellowgreen; */
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.nav-icon:hover {
+	cursor: pointer;
+	background-color: violet;
+}
