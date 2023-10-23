@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import HeaderComp from './HeaderComp';
+import FooterComp from './FooterComp';
 import './App.css';
 
 function App() {
