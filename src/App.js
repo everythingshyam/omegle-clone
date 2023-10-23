@@ -2,6 +2,7 @@
 import HeaderComp from './HeaderComp';
 import FooterComp from './FooterComp';
 import './App.css';
+import MainContainer from './MainContainer';
 
 function App() {
 	return (
